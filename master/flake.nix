@@ -11,8 +11,8 @@
   inputs.src-fsmonitor-master.ref   = "refs/heads/master";
   inputs.src-fsmonitor-master.owner = "nim-lang";
   inputs.src-fsmonitor-master.repo  = "graveyard";
-  inputs.src-fsmonitor-master.dir   = "fsmonitor";
-  inputs.src-fsmonitor-master.type  = "github";
+    inputs.src-fsmonitor-master.dir   = "fsmonitor";
+inputs.src-fsmonitor-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
